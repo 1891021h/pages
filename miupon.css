@@ -2,7 +2,9 @@
   --side-bar-bg-color: #fafafa;
   --control-text-color: #777;
 }
-
+body {
+  -webkit-text-size-adjust: 100%;
+}
 /* open-sans-regular - latin-ext_latin */
 @font-face {
   font-family: 'Open Sans';
@@ -649,10 +651,3 @@ a[href^="https://docs.google.com/document/"]:before {
   color: white;
   margin-right: 8px;
 }
-
-.MathJax {
-  font-size: 1.3rem;
-  }
-  span.MJXc-display{
-  overflow-x: auto;
-  }

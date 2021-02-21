@@ -11,220 +11,6 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-body {
-	/* font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
-	font-size: var(--vscode-markdown-font-size, 14px);
-	padding: 0 26px;
-	line-height: var(--vscode-markdown-line-height, 22px);
-	word-wrap: break-word;*/
-}
-
-#code-csp-warning {
-	position: fixed;
-	top: 0;
-	right: 0;
-	color: white;
-	margin: 16px;
-	text-align: center;
-	font-size: 12px;
-	font-family: sans-serif;
-	background-color:#444444;
-	cursor: pointer;
-	padding: 6px;
-	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
-}
-
-#code-csp-warning:hover {
-	text-decoration: none;
-	background-color:#007acc;
-	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
-}
-
-body.scrollBeyondLastLine {
-	margin-bottom: calc(100vh - 22px);
-}
-
-body.showEditorSelection .code-line {
-	position: relative;
-}
-
-body.showEditorSelection .code-active-line:before,
-body.showEditorSelection .code-line:hover:before {
-	content: "";
-	display: block;
-	position: absolute;
-	top: 0;
-	left: -12px;
-	height: 100%;
-}
-
-body.showEditorSelection li.code-active-line:before,
-body.showEditorSelection li.code-line:hover:before {
-	left: -30px;
-}
-
-.vscode-light.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(0, 0, 0, 0.15);
-}
-
-.vscode-light.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(0, 0, 0, 0.40);
-}
-
-.vscode-light.showEditorSelection .code-line .code-line:hover:before {
-	border-left: none;
-}
-
-.vscode-dark.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(255, 255, 255, 0.4);
-}
-
-.vscode-dark.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(255, 255, 255, 0.60);
-}
-
-.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
-	border-left: none;
-}
-
-.vscode-high-contrast.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(255, 160, 0, 0.7);
-}
-
-.vscode-high-contrast.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(255, 160, 0, 1);
-}
-
-.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
-	border-left: none;
-}
-
-/*img {
-	max-width: 100%;
-	max-height: 100%;
-}
-
-a {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-a:focus,
-input:focus,
-select:focus,
-textarea:focus {
-	outline: 1px solid -webkit-focus-ring-color;
-	outline-offset: -1px;
-}
-
-hr {
-	border: 0;
-	height: 2px;
-	border-bottom: 2px solid;
-}
-
-h1 {
-	padding-bottom: 0.3em;
-	line-height: 1.2;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-}
-
-h1, h2, h3 {
-	font-weight: normal;
-}
-
-table {
-	border-collapse: collapse;
-}
-
-table > thead > tr > th {
-	text-align: left;
-	border-bottom: 1px solid;
-}
-
-table > thead > tr > th,
-table > thead > tr > td,
-table > tbody > tr > th,
-table > tbody > tr > td {
-	padding: 5px 10px;
-}
-
-table > tbody > tr + tr > td {
-	border-top: 1px solid;
-}
-
-blockquote {
-	margin: 0 7px 0 5px;
-	padding: 0 16px 0 10px;
-	border-left-width: 5px;
-	border-left-style: solid;
-}
-
-code {
-	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
-	font-size: 1em;
-	line-height: 1.357em;
-}
-
-body.wordWrap pre {
-	white-space: pre-wrap;
-}
-
-pre:not(.hljs),
-pre.hljs code > div {
-	padding: 16px;
-	border-radius: 3px;
-	overflow: auto;
-}
-
-pre code {
-	color: var(--vscode-editor-foreground);
-	tab-size: 4;
-}
-*/
-
-/** Theming */
-
-.vscode-light pre {
-	background-color: rgba(220, 220, 220, 0.4);
-}
-
-.vscode-dark pre {
-	background-color: rgba(10, 10, 10, 0.4);
-}
-
-.vscode-high-contrast pre {
-	background-color: rgb(0, 0, 0);
-}
-
-.vscode-high-contrast h1 {
-	border-color: rgb(0, 0, 0);
-}
-
-.vscode-light table > thead > tr > th {
-	border-color: rgba(0, 0, 0, 0.69);
-}
-
-.vscode-dark table > thead > tr > th {
-	border-color: rgba(255, 255, 255, 0.69);
-}
-
-.vscode-light h1,
-.vscode-light hr,
-.vscode-light table > tbody > tr + tr > td {
-	border-color: rgba(0, 0, 0, 0.18);
-}
-
-.vscode-dark h1,
-.vscode-dark hr,
-.vscode-dark table > tbody > tr + tr > td {
-	border-color: rgba(255, 255, 255, 0.18);
-}
-
 </style>
 
 <style>
@@ -357,11 +143,14 @@ code {
 
 <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
 <link rel="stylesheet" href="../miupon.css">
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
+
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ 
       tex2jax: {inlineMath: [['$', '$'],["\\(","\\)"]]}, displayMath: [['$$','$$'], ['\\[','\\]']], 
-      messageStyle: "none" 
+      messageStyle: "none", "HTML-CSS": { scale: 95,mtextFontInherit: true}    
     });
 </script>
 <script>
@@ -387,35 +176,34 @@ window.MathJax = {
   </script>
 <div id="write">
 <h1 id="%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E7%A9%BA%E9%96%93">ベクトル空間</h1>
-<p>まずは，ベクトル空間の定義について学びます。
-$f(x)=g(x)$</p>
+<p>まずは，ベクトル空間の定義について学びます。</p>
 <div class="def">
 <p>
-空でない集合 $V$ に，和 $\boldsymbol{x}+\boldsymbol{y}$ およびスカラー倍 $c\boldsymbol{x}$ という演算が定義されていて，次の①～⑧が成り立つとき，$V$ はベクトル空間であるという。<br>
-①　和に関する交換法則：$\boldsymbol{x}+\boldsymbol{y}=\boldsymbol{y}+\boldsymbol{x}$ <br>②　和に関する結合法則：$(\boldsymbol{x}+\boldsymbol{y})+\boldsymbol{z}=\boldsymbol{x}+(\boldsymbol{y}+\boldsymbol{z})$<br>③　零ベクトル：$\boldsymbol{x}+\boldsymbol{0}=\boldsymbol{0}+\boldsymbol{x}=\boldsymbol{0}$<br>④　逆ベクトル：$\boldsymbol{x}+\boldsymbol{x'}=\boldsymbol{x'}+\boldsymbol{x}$<br>⑤　スカラー倍に関する結合法則：$(ab)\boldsymbol{x}=a(b\boldsymbol{x})$<br>⑥　単位元：$1\boldsymbol{x}=\boldsymbol{x}$<br>⑦　スカラーに関する分配法則：$(a+b)\boldsymbol{x}=a\boldsymbol{x}+b\boldsymbol{x}$<br>⑧　ベクトルに関する分配法則：$a(\boldsymbol{x}+\boldsymbol{y})=a\boldsymbol{x}+a\boldsymbol{y}$
+空でない集合 $V$ に，和 $\bm{x}+\bm{y}$ およびスカラー倍 $c\bm{x}$ という演算が定義されていて，次の①～⑧が成り立つとき，$V$ はベクトル空間であるという。<br>
+①　和に関する交換法則：$\bm{x}+\bm{y}=\bm{y}+\bm{x}$ <br>②　和に関する結合法則：$(\bm{x}+\bm{y})+\bm{z}=\bm{x}+(\bm{y}+\bm{z})$<br>③　零ベクトル：$\bm{x}+\bm{0}=\bm{0}+\bm{x}=\bm{0}$<br>④　逆ベクトル：$\bm{x}+\bm{x'}=\bm{x'}+\bm{x}$<br>⑤　スカラー倍に関する結合法則：$(ab)\bm{x}=a(b\bm{x})$<br>⑥　単位元：$1\bm{x}=\bm{x}$<br>⑦　スカラーに関する分配法則：$(a+b)\bm{x}=a\bm{x}+b\bm{x}$<br>⑧　ベクトルに関する分配法則：$a(\bm{x}+\bm{y})=a\bm{x}+a\bm{y}$
 </p>
 </div>
 <div class="eg-label">例１</div>
 <div class="eg-text">
 $n$ 次の列ベクトルの集合
 $$
-\boldsymbol{\rm R}^n
+\bm{\rm R}^n
 =\left\{
-	\boldsymbol{x}=
+	\bm{x}=
 	\begin{bmatrix}
 		x_1 \\ \vdots \\ x_n
 	\end{bmatrix}
 	\ \middle| \ 
-	a_i \in \boldsymbol{\rm R}, 1 \leq i \leq n
+	a_i \in \bm{\rm R}, 1 \leq i \leq n
 \right\}
 $$
 は，ふつうの行列の和とスカラー倍の定義によってベクトル空間となる。
 <p>
-とくに $\boldsymbol{\rm R}^2
+とくに $\bm{\rm R}^2
 \equiv \left\{
 	\, (x,y)
 	\, \middle| \, 
-	x,y\in \boldsymbol{\rm R}\ 
+	x,y\in \bm{\rm R}\ 
 \right\}
 $ は，よく知っている $xy$ 平面と同じものであると考えることができる。
 </p>
@@ -423,16 +211,16 @@ $ は，よく知っている $xy$ 平面と同じものであると考えるこ
 <div class="ex">
 <span class="ex-circle1">れ</span><span class="ex-circle2">だ</span>
 <p>
-$\boldsymbol{\rm R}^3
+$\bm{\rm R}^3
 =\left\{
 	\begin{bmatrix}
 		x\\y\\z
 	\end{bmatrix}
 	\middle|
-	\ x,y,z\in \boldsymbol{\rm R} 
+	\ x,y,z\in \bm{\rm R} 
 \right\}$ について，以下の各問いに答えよ。
 <p>$(1)$　和とスカラー倍の定義を記せ。</p>
-<p>$(2)$　$(1)$ の定義によって，$\boldsymbol{\rm R}^3$ がベクトル空間となっていることを確めよ（性質①～⑧を満たすことを示せ）。</p>
+<p>$(2)$　$(1)$ の定義によって，$\bm{\rm R}^3$ がベクトル空間となっていることを確めよ（性質①～⑧を満たすことを示せ）。</p>
 </p>
 </div>
 <div class="prob">
@@ -445,7 +233,7 @@ $\boldsymbol{\rm R}^3
 </div>
 <div class="theorem">
 <span class="theorem-title">定理4.1</span>
-<p>ここに定理が入ります。テストです，retireしたらしいけど</p>
+<p>ここに定理が入ります。テストです.</p>
 </div>
 </div>
 </body>
