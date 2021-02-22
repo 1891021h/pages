@@ -180,68 +180,18 @@ window.MathJax = {
     });
 </script> -->
 <div id="write">
-<h1 id="%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E7%A9%BA%E9%96%93">ベクトル空間</h1>
-<p>まずは，ベクトル空間の定義について学びます。</p>
+<h1 id="%EF%BC%91%E6%AC%A1%E7%8B%AC%E7%AB%8B">１次独立</h1>
+<p>次に，高校でも少し学んだベクトルの１次結合について議論します。</p>
 <div class="def">
 <p>
-空でない集合 $V$ に，和 $\bm{x}+\bm{y}$ およびスカラー倍 $c\bm{x}$ という演算が定義されていて，次の①～⑧が成り立つとき，$V$ はベクトル空間であるという。<br>
-①　和に関する交換法則：$\bm{x}+\bm{y}=\bm{y}+\bm{x}$ <br>②　和に関する結合法則：$(\bm{x}+\bm{y})+\bm{z}=\bm{x}+(\bm{y}+\bm{z})$<br>③　零ベクトル：$\bm{x}+\bm{0}=\bm{0}+\bm{x}=\bm{0}$<br>④　逆ベクトル：$\bm{x}+\bm{x'}=\bm{x'}+\bm{x}$<br>⑤　スカラー倍に関する結合法則：$(ab)\bm{x}=a(b\bm{x})$<br>⑥　単位元：$1\bm{x}=\bm{x}$<br>⑦　スカラーに関する分配法則：$(a+b)\bm{x}=a\bm{x}+b\bm{x}$<br>⑧　ベクトルに関する分配法則：$a(\bm{x}+\bm{y})=a\bm{x}+a\bm{y}$
+ベクトル空間 $V$ のベクトル $\bm{v}_1,\bm{v}_2,\dots ,\bm{v}_k$ とスカラー $c_1,c_2,\dots ,c_k$ に対して，
+<p>$$
+\bm{v}=c_1\bm{v}_1+c_2\bm{v}_2+\dots +c_k\bm{v}_k
+$$</p>
+<p>を $\bm{v}_1,\bm{v}_2,\dots ,\bm{v}_k$ の１次結合という。</p>
 </p>
 </div>
-<div class="eg-label">例１</div>
-<div class="eg-text">
-<p>
-$n$ 次の列ベクトルの集合
-$$
-\bm{\rm R}^n
-=\left\{
-	\bm{x}=
-	\begin{bmatrix}
-		x_1 \\ \vdots \\ x_n
-	\end{bmatrix}
-	\ \middle| \ 
-	a_i \in \bm{\rm R}, 1 \leq i \leq n
-\right\}
-$$
-は，ふつうの行列の和とスカラー倍の定義によってベクトル空間となる。
-</p>
-<p>
-とくに $\bm{\rm R}^2
-\equiv \left\{
-	\, (x,y)
-	\, \middle| \, 
-	x,y\in \bm{\rm R}\ 
-\right\}
-$ は，よく知っている $xy$ 平面と同じものであると考えることができる。
-</p>
-</div>
-<div class="ex">
-<span class="ex-circle1">れ</span><span class="ex-circle2">だ</span>
-<p>
-$\bm{\rm R}^3
-=\left\{
-	\begin{bmatrix}
-		x\\y\\z
-	\end{bmatrix}
-	\middle|
-	\ x,y,z\in \bm{\rm R} 
-\right\}$ について，以下の各問いに答えよ。
-<p>$(1)$　和とスカラー倍の定義を記せ。</p>
-<p>$(2)$　$(1)$ の定義によって，$\bm{\rm R}^3$ がベクトル空間となっていることを確めよ（性質①～⑧を満たすことを示せ）。</p>
-</p>
-</div>
-<div class="prob">
-<span class="label">れんしゅう</span>
-<p>
-実数を係数とする高々 $n$ 次の多項式全体を $R[x]_n$ と書くことにする。 いま，$n=2$ として $R[x]_2$ について考える。 
-<p>$(1)$　$R[x]_2$ の和とスカラー倍の定義を記せ。</p>
-<p>$(2)$　$(1)$ の定義によって，$R[x]_2$ がベクトル空間となっていることを確かめよ。</p>
-</p>
-</div>
-<div class="theorem">
-<span class="theorem-title">定理4.1</span>
-<p>ここに定理が入ります。いけてる</p>
-</div>
+
 </div>
 </body>
 </html>

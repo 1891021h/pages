@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>index.md</title>
+<title>断熱減率.md</title>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 <script type="text/javascript">
   if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
@@ -180,68 +180,98 @@ window.MathJax = {
     });
 </script> -->
 <div id="write">
-<h1 id="%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E7%A9%BA%E9%96%93">ベクトル空間</h1>
-<p>まずは，ベクトル空間の定義について学びます。</p>
-<div class="def">
-<p>
-空でない集合 $V$ に，和 $\bm{x}+\bm{y}$ およびスカラー倍 $c\bm{x}$ という演算が定義されていて，次の①～⑧が成り立つとき，$V$ はベクトル空間であるという。<br>
-①　和に関する交換法則：$\bm{x}+\bm{y}=\bm{y}+\bm{x}$ <br>②　和に関する結合法則：$(\bm{x}+\bm{y})+\bm{z}=\bm{x}+(\bm{y}+\bm{z})$<br>③　零ベクトル：$\bm{x}+\bm{0}=\bm{0}+\bm{x}=\bm{0}$<br>④　逆ベクトル：$\bm{x}+\bm{x'}=\bm{x'}+\bm{x}$<br>⑤　スカラー倍に関する結合法則：$(ab)\bm{x}=a(b\bm{x})$<br>⑥　単位元：$1\bm{x}=\bm{x}$<br>⑦　スカラーに関する分配法則：$(a+b)\bm{x}=a\bm{x}+b\bm{x}$<br>⑧　ベクトルに関する分配法則：$a(\bm{x}+\bm{y})=a\bm{x}+a\bm{y}$
-</p>
-</div>
-<div class="eg-label">例１</div>
-<div class="eg-text">
-<p>
-$n$ 次の列ベクトルの集合
+<p><strong>[乾燥断熱減率]</strong></p>
+<p>熱力学第一法則は，
 $$
-\bm{\rm R}^n
-=\left\{
-	\bm{x}=
-	\begin{bmatrix}
-		x_1 \\ \vdots \\ x_n
-	\end{bmatrix}
-	\ \middle| \ 
-	a_i \in \bm{\rm R}, 1 \leq i \leq n
-\right\}
+d'q=du+d'w
 $$
-は，ふつうの行列の和とスカラー倍の定義によってベクトル空間となる。
-</p>
-<p>
-とくに $\bm{\rm R}^2
-\equiv \left\{
-	\, (x,y)
-	\, \middle| \, 
-	x,y\in \bm{\rm R}\ 
-\right\}
-$ は，よく知っている $xy$ 平面と同じものであると考えることができる。
-</p>
-</div>
-<div class="ex">
-<span class="ex-circle1">れ</span><span class="ex-circle2">だ</span>
-<p>
-$\bm{\rm R}^3
-=\left\{
-	\begin{bmatrix}
-		x\\y\\z
-	\end{bmatrix}
-	\middle|
-	\ x,y,z\in \bm{\rm R} 
-\right\}$ について，以下の各問いに答えよ。
-<p>$(1)$　和とスカラー倍の定義を記せ。</p>
-<p>$(2)$　$(1)$ の定義によって，$\bm{\rm R}^3$ がベクトル空間となっていることを確めよ（性質①～⑧を満たすことを示せ）。</p>
-</p>
-</div>
-<div class="prob">
-<span class="label">れんしゅう</span>
-<p>
-実数を係数とする高々 $n$ 次の多項式全体を $R[x]_n$ と書くことにする。 いま，$n=2$ として $R[x]_2$ について考える。 
-<p>$(1)$　$R[x]_2$ の和とスカラー倍の定義を記せ。</p>
-<p>$(2)$　$(1)$ の定義によって，$R[x]_2$ がベクトル空間となっていることを確かめよ。</p>
-</p>
-</div>
-<div class="theorem">
-<span class="theorem-title">定理4.1</span>
-<p>ここに定理が入ります。いけてる</p>
-</div>
+定積<s>モル</s>比熱 $c_v[\rm J\cdot kg^{-1}\cdot K^{-1}]$，圧力 $p$，体積 $V$ を用いると，
+$$
+d'q=c_vdT+pdv\tag{3.9}
+$$
+状態方程式（Rは比気体定数）
+$$
+pv=R'T
+$$
+の両辺を $T$ で微分すると，積の微分法から，
+$$
+pdv+vdp=R'dT
+$$
+となるから，
+$$
+\begin{align}
+d'q&amp;=(c_p-R')dT+pdv\
+&amp;=c_pdT-(pdv+vdp)+pdv\
+&amp;=c_pdT+vdp\tag{3.10}
+\end{align}
+$$
+と書ける。</p>
+<p>断熱変化を考えると，$d'q=0$ であるから，
+$$
+c_pdT-vdp=0
+$$
+よって，
+$$
+\frac{dT}{dp}=\frac{v}{c_p}\tag{3.11}
+$$
+(この式から，ポアソンの関係式も導出される。)
+$$
+\begin{align}
+\frac{dT}{dz}&amp;=\frac{dT}{d\rho}\times \frac{d\rho}{dz}\
+&amp;=\frac{1}{\rho c_p}\times \left(-\frac{g\rho}{R'T}\right)\
+&amp;=-\frac{g}{c_p}
+\end{align}
+$$
+以上より気温の__乾燥断熱減率__は，
+$$
+\Gamma_d \equiv -\frac{dT}{dz}=\frac{g}{c_p}\tag{3.13}
+$$</p>
+<hr>
+<p>飽和していない湿潤空気に，水蒸気が質量分率 $\omega$ で含まれているとき， $(3.13)$ は，$c_p$ を次のように置き換えて使えると思われる。
+$$
+c_p=(1-\omega)c_{p,air}+\omega c_{p,vapor}
+$$
+空気塊が上昇して冷やされると，水蒸気が凝縮して水になる。水蒸気の質量分率 $\omega$ の変化を $d\omega(&lt;0)$ とすると，$-d\omega$ は凝縮した(ちょうど凝縮したところの)水蒸気の質量分率である。(単位質量あたりの)蒸発熱を $\Delta H_v[\rm J\cdot kg^{-1}]$ とすると，$d'q=(\Delta H_v) (-d\omega)$ なので $(3.10)$ は，
+$$
+d'q=(\Delta H_v) (-d\omega)=c_pdT-vdp
+$$
+この式から $$dT$$ を求めると，
+$$
+dT=\frac{v}{c_p}dp-\frac{\Delta H_v}{c_p}d\omega
+$$
+$z$ で微分して，
+$$
+\frac{\partial T}{\partial z}=\frac{v}{c_p} \frac{\partial p}{\partial z}-\frac{\Delta H_v}{c_p} \frac{\partial \omega}{\partial z}
+$$
+静水圧平衡の式 $(3.7)$ と，$v\rho =1$ を用いると，
+$$
+\begin{align}
+\frac{\partial T}{\partial z}&amp;=-\frac{g}{c_p}-\frac{\Delta H_v}{c_p} \frac{\partial \omega}{\partial z}\
+&amp;=-\Gamma_d -\frac{\Delta H_v}{c_p} \frac{\partial \omega}{\partial z}\
+&amp;\equiv -\Gamma_s
+\end{align}
+$$
+したがって，気温の__湿潤断熱減率__は，
+$$
+\Gamma_s=\Gamma_d+\frac{\Delta H_v}{c_p}\frac{\partial \omega}{\partial z}
+$$
+$\partial \omega / \partial z&lt;0$ なら，
+$$
+\Gamma_s&lt;\Gamma_d
+$$</p>
+<table>
+<thead>
+<tr>
+<th>定理1.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>湿潤断熱減率は，乾燥断熱減率より小さい。</td>
+</tr>
+</tbody>
+</table>
+
 </div>
 </body>
 </html>
