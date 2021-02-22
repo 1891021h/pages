@@ -149,7 +149,7 @@ code {
 </style>
  -->
 <!-- <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script> -->
-<link rel="stylesheet" href="../miupon.css">
+<link rel="stylesheet" href="../../../miupon.css">
 <!-- <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
 <script type="text/x-mathjax-config">
@@ -180,17 +180,23 @@ window.MathJax = {
     });
 </script> -->
 <div id="write">
-<h1 id="%E9%83%A8%E5%88%86%E7%A9%BA%E9%96%93">部分空間</h1>
-<p>次に，部分空間の定義について学びます。</p>
+<h1 id="1%E6%AC%A1%E7%8B%AC%E7%AB%8B">1次独立</h1>
+<p>次に，1次結合について考察します。1次独立か1次従属かを判定できるようになることが目標です。まずは，1次結合の定義から見てみましょう。</p>
 <div class="def">
 <p>
-ベクトル空間 $V$ の空でない部分集合が次の$(1)$,$(2)$ をみたすとき，$W$ を $V$ の部分空間という。
-<p>$(1)$　$\bm{x},\bm{y}\in W$ に対して，$\bm{x}+\bm{y}\in W$<br>
-$(2)$　$\bm{x}\in W,r\in \bm{\rm K}$ に対して，$r\bm{x}\in W$</p>
+ベクトル空間 $V$ の ベクトル $\bm{v}_1,\bm{v}_2,\dots ,\bm{v}_k$ とスカラー $c_1,c_2,\dots ,c_k$ に対して，
+$$
+\bm{v}=c_1\bm{v}_1+c_2\bm{v}_2+\dots +c_k\bm{v}_k
+$$
+を $\bm{v}_1,\bm{v}_2,\dots ,\bm{v}_k$ の1次結合という。
 </p>
 </div>
 <p>
-次の定理は問題を解くときによく使います。
+ここで，1次結合が $\bm{0}$ に等しいとした関係式
+$$
+\bm{v}=c_1\bm{v}_1+c_2\bm{v}_2+\dots +c_k\bm{v}_k
+$$
+を考えてみます。
 </p>
 <div class="theorem">
 <span class="theorem-title">定理4.1</span>
