@@ -56,7 +56,7 @@ $(2)$　$(1)$ の定義によって，$\bm{\rm R}^3$ がベクトル空間とな
 </div>
 
 <div class="prob">
-<span class="label">れんしゅう</span>
+<span class="prob-label">れんしゅう</span>
 <p>
 実数を係数とする高々 $n$ 次の多項式全体を $R[x]_n$ と書くことにする。 いま，$n=2$ として $R[x]_2$ について考える。 
 

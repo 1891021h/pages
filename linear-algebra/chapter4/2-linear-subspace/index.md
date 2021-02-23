@@ -61,7 +61,7 @@ W_2
 </div>
 
 <div class="prob">
-<span class="label">れんしゅう</span>
+<span class="prob-label">れんしゅう</span>
 <p>
 次の $R[x]_3$ の部分集合 $W_1,W_2$ は $R[x]_3$ の部分空間であるか，それぞれ調べよ。 
 </p>

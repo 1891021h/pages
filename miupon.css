@@ -614,7 +614,7 @@ a[href^="https://docs.google.com/document/"]:before {
   border: solid 3px rgba(215, 253, 205, 1);
   border-radius: 8px;
 }
-.prob .label {
+.prob .prob-label {
   position: absolute;
   display: inline-block;
   top: -13px;
