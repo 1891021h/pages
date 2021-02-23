@@ -32,7 +32,7 @@ $$\bm{0}\in W$$
 </div>
 
 <div class="ex">
-<span class="ex-circle1">れ</span><span class="ex-circle2">だ</span>
+<span class="ex-circle1">例</span>
 <p>
 次の $\bm{\rm R}^2$ の部分集合 $W_1,W_2$ は $\bm{\rm R}^2$ の部分空間であるか，それぞれ調べよ。
 <p>

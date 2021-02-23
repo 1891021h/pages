@@ -74,7 +74,7 @@ $$
 
 ここで，頻出の重要な例題をやってみます。
 <div class="ex">
-<span class="ex-circle1">れ</span><span class="ex-circle2">だ</span>
+<span class="ex-circle1">例</span>
 <p>
 次のベクトルの組は１次独立であるかどうか判定し，１次従属ならば非自明な１次関係を１つ挙げよ。
 
@@ -105,7 +105,7 @@ $$
 </div>
 
 <div class="prob">
-<span class="prob-label">れんしゅう</span>
+<span class="prob-label">練習</span>
 <p>
 次のベクトルの組は１次独立であるかどうか判定し，１次従属ならば非自明な１次関係を１つ挙げよ。
 

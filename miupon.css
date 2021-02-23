@@ -529,82 +529,48 @@ a[href^="https://docs.google.com/document/"]:before {
 /* 例題 */
 .ex{
   background: rgba(215, 253, 205, 0.61);
-  margin: 2em 0;
-  padding: 25px;
-  border-radius: 10px;
+  margin: 2rem 0;
+  padding: 1.5em;
+  border-radius: 0.63em;
 }
 
 .ex-circle1{
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
   position: absolute;
-  margin-top: -37px;
+  margin-top: -2.3em;
   font-weight: bold;
   color: #fff;
-  background-color:#4caf50;
+  background-color: #4caf50;
   border-radius: 50%;
   text-align: center;
-  width: 24px;
-  height: 24px;
+  width: 1.5em;
+  height: 1.5em;
 }
 
 .ex-circle1:after{
-  content: "い";
+  content: "題";
   position: absolute;
-  margin-top: .2em;
   font-weight: bold;
   color: #fff;
   background-color:#4caf50;
   border-radius: 50%;
   text-align: center;
-  width: 24px;
-  height: 24px;
+  width: 1.5em;
+  height: 1.5em;;
 }
 
-.ex-circle2:before{
+.ex-circle1:before{
   content: "";
   position: absolute;
-  top: 100%;
-  margin-left: -12px;
+  top: 90%;
+  margin-left: 0.6em;
   border: 5px solid transparent;
-  border-top: 10px solid #4caf50;
+  border-top: 0.6em solid #4caf50;
   -ms-transform: rotate(-20deg);
   -webkit-transform: rotate(-20deg);
   transform: rotate(-20deg);
 }
-
-.ex-circle2{
-  position: absolute;
-  font-size: 16px;
-  line-height: 1.5;
-  margin-top: -37px;
-  margin-left: 40px;
-  font-weight: bold;
-  color: #fff;
-  background-color:#4caf50;
-  border-radius: 50%;
-  text-align: center;
-  width: 24px;
-  height: 24px;
-}
-
-.ex-circle2:after{
-  content: "い";
-  position: absolute;
-  margin-top: .2em;
-  font-weight: bold;
-  color: #fff;
-  background-color:#4caf50;
-  border-radius: 50%;
-  text-align: center;
-  width: 24px;
-  height: 24px;
-}
-
-/* .ex p{
-  margin: 0;
-  padding: 0;
-} */
 
 /* 練習 */
 .prob {

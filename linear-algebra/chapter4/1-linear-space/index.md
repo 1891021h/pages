@@ -38,7 +38,7 @@ $ は，よく知っている $xy$ 平面と同じものであると考えるこ
 </div>
 
 <div class="ex">
-<span class="ex-circle1">れ</span><span class="ex-circle2">だ</span>
+<span class="ex-circle1">例</span>
 <p>
 $\bm{\rm R}^3
 =\left\{
