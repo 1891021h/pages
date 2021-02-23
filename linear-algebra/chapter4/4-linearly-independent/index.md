@@ -24,7 +24,6 @@ $$
 </p>
 
 <div class="def">
-<div class="def-label">定義</div>
 <p class="def-text">
 $\bm{v}_1,\bm{v}_2,\dots ,\bm{v}_k \in V$ とスカラー $c_1,c_2,\dots ,c_k$ に対して，
 $$
