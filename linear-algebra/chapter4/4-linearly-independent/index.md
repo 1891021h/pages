@@ -3,7 +3,6 @@
 次に，高校でも少し学んだベクトルの１次結合について議論します。
 
 <div class="def">
-<div class="def-label">定義</div>
 <p>
 ベクトル空間 $V$ のベクトル $\bm{v}_1,\bm{v}_2,\dots ,\bm{v}_k$ とスカラー $c_1,c_2,\dots ,c_k$ に対して，
 
