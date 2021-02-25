@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>index.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<script type="text/javascript">
+  if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+      document.write('<link rel="stylesheet" type="text/css" href="../../../sp.css">');
+  } else {
+      document.write('<link rel="stylesheet" type="text/css" href="../../../pc.css">');
+  }
+</script>
+<link rel="stylesheet" href="../../../miupon.css">
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script> -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ 
+      tex2jax: {inlineMath: [['$', '$'],["\\(","\\)"]]}, displayMath: [['$$','$$'], ['\\[','\\]']], 
+      messageStyle: "none", "HTML-CSS": { scale: 95,mtextFontInherit: true}    
+    });
+</script>
+<script>
+window.MathJax = {
+  TeX: {
+    equationNumbers: {autoNumber: "AMS"},
+    Macros: {
+      dd: ["{\\displaystyle \\frac{\\partial #1}{\\partial #2}}",2],
+      bm: ["{\\boldsymbol{#1}}",1],
+    }
+  },
+};
+</script>
+</head>
+<body>
+<div id="write">
+<h1 id="%EF%BC%91%E6%AC%A1%E7%8B%AC%E7%AB%8B%E3%81%AA%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%81%AE%E6%9C%80%E5%A4%A7%E5%80%8B%E6%95%B0">１次独立なベクトルの最大個数</h1>
+<p>
+ベクトルの組の中から１次独立なベクトルを選んで抜き出してくることを考えるとき，<b>最大で</b>何個抜き出せるか調べてみましょう。最初に，１次独立なベクトルの最大個数の定義を示します。
+</p>
+<div class="def">
+<p class="def-text">
+ベクトルの組の中に $r$ 個の１次独立なベクトルがあり，どの $r+1$ 個のベクトルも１次従属であるとき，１次独立なベクトルの最大個数が $r$ であるという。
+</p>
+</div>
+<p>これが定義ですが，直接的には次の定理を使って問題を解くことになります。</p>
+<div class="theorem">
+<span class="theorem-title">定理3.1</span>
+<p>
+$\left\{\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\right\}$ の１次独立な最大個数が $r$ である
+<p>
+$\iff$　$\left\{\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\right\}$ の中に $r$ 個の１次独立なベクトルがあり，他の $m-r$ 個のベクトルはこの $r$ 個のベクトルの１次結合で書ける。
+</p>
+</p>
+</div>
+<div class="ex">
+<span class="ex-circle1">例</span>
+<p>
+次のベクトルの組の中から，最大個数の１次独立なベクトルの組を抜き出しなさい。また，他のベクトルを，抜き出したベクトルの１次結合で表しなさい。
+<p>$$
+\bm{v}_1=
+\left[ \begin{array}{rrrr} 1\cr1\cr3\cr0 \end{array} \right],
+\bm{v}_2=
+\left[ \begin{array}{rrrr} 1\cr2\cr0\cr-1 \end{array} \right],
+\bm{v}_3=
+\left[ \begin{array}{rrrr} 1\cr3\cr-3\cr-2 \end{array} \right],
+\bm{v}_4=
+\left[ \begin{array}{rrrr} -2\cr4\cr1\cr-1 \end{array} \right],
+\bm{v}_5=
+\left[ \begin{array}{rrrr} -1\cr-4\cr7\cr0 \end{array} \right]
+$$</p>
+</p>
+</div>
+<p>自分の選んだ抜き出し方が最大個数となる抜き出し方になっているか，釈然としない人もいるかもしれません。しかし，定理3.1により，残りのベクトルが抜き出したベクトルの１次結合で表されることを確かめれば，最大個数であることが保証されます。
+定理として述べておきましょう。</p>
+<div class="theorem">
+<span class="theorem-title">定理3.2</span>
+<p>
+$\left\{\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\right\}$ から最大個数の１次独立なベクトルを抜き出すには，<br>
+<p>①　各ベクトルを列ベクトルとする行列 $A$ を階段行列に変形する。</p>
+<p>②　その階段行列において主成分を持つ列の列ベクトルを抜き出す。</p>
+</p>
+</div>
+</div>
+</body>
+</html>

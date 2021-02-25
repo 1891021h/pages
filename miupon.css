@@ -522,7 +522,7 @@ a[href^="https://docs.google.com/document/"]:before {
   font-weight: bold;
 }
 .theorem p {
-  padding: 15px 20px;
+  padding: 5px 20px;
   margin: 0;
 }
 
