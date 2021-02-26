@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>index.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<script type="text/javascript">
+  if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+      document.write('<link rel="stylesheet" type="text/css" href="../../../sp.css">');
+  } else {
+      document.write('<link rel="stylesheet" type="text/css" href="../../../pc.css">');
+  }
+</script>
+<link rel="stylesheet" href="../../../miupon.css">
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script> -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ 
+      tex2jax: {inlineMath: [['$', '$'],["\\(","\\)"]]}, displayMath: [['$$','$$'], ['\\[','\\]']], 
+      messageStyle: "none", "HTML-CSS": { scale: 95,mtextFontInherit: true}    
+    });
+</script>
+<script>
+window.MathJax = {
+  TeX: {
+    equationNumbers: {autoNumber: "AMS"},
+    Macros: {
+      dd: ["{\\displaystyle \\frac{\\partial #1}{\\partial #2}}",2],
+      bm: ["{\\boldsymbol{#1}}",1],
+      lbrc: "\\{",
+      rbrc: "\\}",
+      span: ["{\\rm span}\\{#1\\}",1]
+    }
+  },
+};
+</script>
+</head>
+<body>
+<div id="write">
+<h1 id="%E5%9F%BA%E5%BA%95">基底</h1>
+<div class="def">
+<p class="def-text">
+<p>ベクトル空間 $V$ のベクトル$\bm{v}_1,\bm{v}_2,\ldots ,\bm{v}_k$ が次の２つの条件を満たすとき，ベクトルの組 $\lbrc \bm{v}_1,\bm{v}_2,\ldots ,\bm{v}_k\rbrc$ を $V$ の基底という。</p>
+<p>$(1)$　$\bm{v}_1,\bm{v}_2,\ldots ,\bm{v}_k$ は１次独立である。<br>
+$(2)$　$\bm{v}_1,\bm{v}_2,\ldots ,\bm{v}_k$ は $V$ を生成する。すなわち $V=\langle \bm{v}_1,\bm{v}_2,\ldots ,\bm{v}_k \rangle$ 。</p>
+</p>
+</div>
+<div class="eg-label">例4.4.1</div>
+<div class="eg-text">
+$\bm{\rm R}^n$ の基本ベクトル $\lbrc \bm{e}_1,\bm{e}_2, \ldots ,\bm{e}_n \rbrc$ は $\bm{\rm R}^n$ の基底である。これを標準基底という。
+<p>$\because$　実際 $\bm{e}_1,\bm{e}_2, \ldots ,\bm{e}_n$ は１次独立で，任意の $\bm{\rm R}^n$ のベクトルは，
+$$
+\left[\begin{array}{cccc} a_1 \cr a_2 \cr \vdots \cr a_n \end{array}\right]=a_1\bm{e}_1+a_2\bm{e}_2+\cdots+a_n\bm{e}_n
+$$
+と $\bm{e}_1,\bm{e}_2, \ldots ,\bm{e}_n$ の１次結合で書ける。</p>
+</div>
+<div class="eg-label">例4.4.2</div>
+<div class="eg-text">
+$\lbrc1,x,x^2,\ldots ,x^n\rbrc$ は $R[x]_n$ の基底である。
+</div>
+<div class="ex">
+<span class="ex-circle1">例</span>
+<p>
+$\lbrc 1+x,x+x^2,1+x^2 \rbrc$ は $R[x]_2$ の基底であることを示せ。
+</p>
+</div>
+
+</div>
+</body>
+</html>

@@ -11,8 +11,6 @@
   }
 </script>
 <link rel="stylesheet" href="../../../miupon.css">
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script> -->
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ 
       tex2jax: {inlineMath: [['$', '$'],["\\(","\\)"]]}, displayMath: [['$$','$$'], ['\\[','\\]']], 
@@ -26,10 +24,15 @@ window.MathJax = {
     Macros: {
       dd: ["{\\displaystyle \\frac{\\partial #1}{\\partial #2}}",2],
       bm: ["{\\boldsymbol{#1}}",1],
+      lbrc: "\\{",
+      rbrc: "\\}",
+      span: ["{\\rm span}\\{#1\\}",1]
     }
   },
 };
 </script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script> -->
 </head>
 <body>
 <div id="write">
@@ -78,6 +81,22 @@ $$</p>
 $\left\{\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\right\}$ から最大個数の１次独立なベクトルを抜き出すには，<br>
 <p>①　各ベクトルを列ベクトルとする行列 $A$ を階段行列に変形する。</p>
 <p>②　その階段行列において主成分を持つ列の列ベクトルを抜き出す。</p>
+</p>
+</div>
+<div class="prob">
+<span class="prob-label">れんしゅう</span>
+<p>
+次のベクトルの組の中から，最大個数の１次独立なベクトルの組を抜き出しなさい。また，他のベクトルを，抜き出したベクトルの１次結合で表しなさい。
+<p>$$
+\bm{v}_1=
+\left[ \begin{array}{rrr} 1\cr 2\cr 3 \end{array} \right],
+\bm{v}_2=
+\left[ \begin{array}{rrr} -1\cr 1\cr -2 \end{array} \right],
+\bm{v}_3=
+\left[ \begin{array}{rrr} 0\cr -1\cr 1 \end{array} \right],
+\bm{v}_4=
+\left[ \begin{array}{rrrr} 2\cr 2\cr 0 \end{array} \right]
+$$</p>
 </p>
 </div>
 </div>
