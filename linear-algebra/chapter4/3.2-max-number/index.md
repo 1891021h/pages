@@ -57,7 +57,7 @@ $\left\{\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\right\}$ から最大個数の１次
 </div>
 
 <div class="prob">
-<span class="prob-label">れんしゅう</span>
+<span class="prob-label">練習</span>
 <p>
 次のベクトルの組の中から，最大個数の１次独立なベクトルの組を抜き出しなさい。また，他のベクトルを，抜き出したベクトルの１次結合で表しなさい。
 

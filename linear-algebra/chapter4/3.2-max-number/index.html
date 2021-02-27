@@ -24,15 +24,19 @@ window.MathJax = {
     Macros: {
       dd: ["{\\displaystyle \\frac{\\partial #1}{\\partial #2}}",2],
       bm: ["{\\boldsymbol{#1}}",1],
-      lbrc: "\\{",
-      rbrc: "\\}",
-      span: ["{\\rm span}\\{#1\\}",1]
+      lbrc: "\\left\\{",
+      rbrc: "\\right\\}",
+      span: ["{\\rm span}\\{#1\\}",1],
+      Rn: ["{\\bm{\\rm R}^{#1}}",1],
+      spc3: ["{\\hspace{ 3pt }}"],
     }
   },
 };
 </script>
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script> -->
+<!-- <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 </head>
 <body>
 <div id="write">
@@ -84,7 +88,7 @@ $\left\{\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\right\}$ から最大個数の１次
 </p>
 </div>
 <div class="prob">
-<span class="prob-label">れんしゅう</span>
+<span class="prob-label">練習</span>
 <p>
 次のベクトルの組の中から，最大個数の１次独立なベクトルの組を抜き出しなさい。また，他のベクトルを，抜き出したベクトルの１次結合で表しなさい。
 <p>$$

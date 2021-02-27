@@ -476,6 +476,13 @@ a[href^="https://docs.google.com/document/"]:before {
   	background-size: 1.4em 1.4em;
   } */
 
+/*スマートフォン・PC切り替え*/
+@media(min-width:560px){
+.sp{
+  display:none;
+}
+}
+
 /* 定義 */
 .def{
   margin:2em 0;
@@ -512,17 +519,17 @@ a[href^="https://docs.google.com/document/"]:before {
   display: inline-block;
   top: -2px;
   left: -2px;
-  font-size:14px;
-  padding: 0 9px;
-  height: 25px;
-  line-height: 25px;
+  font-size:0.9rem;
+  padding: 0 0.58rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
   vertical-align: middle;
   background: #00419e;
   color: #ffffff;
   font-weight: bold;
 }
 .theorem p {
-  padding: 5px 20px;
+  padding: 0.3rem 1.3rem;
   margin: 0;
 }
 
@@ -571,6 +578,10 @@ a[href^="https://docs.google.com/document/"]:before {
   -webkit-transform: rotate(-20deg);
   transform: rotate(-20deg);
 }
+.ex p{
+  overflow-x: auto;
+  overflow-y: hidden;
+}
 
 /* 練習 */
 .prob {
@@ -578,7 +589,7 @@ a[href^="https://docs.google.com/document/"]:before {
   margin: 2em 0;
   padding: 0.5em 1em;
   border: solid 3px rgba(215, 253, 205, 1);
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 .prob .prob-label {
   position: absolute;
@@ -587,7 +598,7 @@ a[href^="https://docs.google.com/document/"]:before {
   left: 10px;
   padding: 0 9px;
   line-height: 1;
-  font-size: 16px;
+  font-size: 1.1rem;
   background-color: #fff;
   color: #4caf50;
   font-weight: bold;
