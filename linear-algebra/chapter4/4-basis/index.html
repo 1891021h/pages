@@ -11,8 +11,6 @@
   }
 </script>
 <link rel="stylesheet" href="../../../miupon.css">
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script> -->
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ 
       tex2jax: {inlineMath: [['$', '$'],["\\(","\\)"]]}, displayMath: [['$$','$$'], ['\\[','\\]']], 
@@ -26,13 +24,15 @@ window.MathJax = {
     Macros: {
       dd: ["{\\displaystyle \\frac{\\partial #1}{\\partial #2}}",2],
       bm: ["{\\boldsymbol{#1}}",1],
-      lbrc: "\\{",
-      rbrc: "\\}",
+      lbrc: "\\left\\{",
+      rbrc: "\\right\\}",
       span: ["{\\rm span}\\{#1\\}",1]
     }
   },
 };
 </script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script> -->
 </head>
 <body>
 <div id="write">
@@ -59,6 +59,18 @@ $\lbrc1,x,x^2,\ldots ,x^n\rbrc$ は $R[x]_n$ の基底である。
 </div>
 <div class="ex">
 <span class="ex-circle1">例</span>
+<p>
+<p>$
+\lbrc
+\left[\begin{array}{ccc} 1 \cr 1  \cr 0 \end{array}\right],
+\left[\begin{array}{ccc} 0 \cr 1  \cr 1 \end{array}\right],
+\left[\begin{array}{ccc} 1 \cr 0  \cr 1 \end{array}\right]
+\rbrc
+$ は $\bm{\rm R}^3$ の基底であることを示せ。</p>
+</p>
+</div>
+<div class="prob">
+<span class="prob-label">練習</span>
 <p>
 $\lbrc 1+x,x+x^2,1+x^2 \rbrc$ は $R[x]_2$ の基底であることを示せ。
 </p>

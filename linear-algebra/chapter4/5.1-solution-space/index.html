@@ -11,8 +11,6 @@
   }
 </script>
 <link rel="stylesheet" href="../../../miupon.css">
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script> -->
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ 
       tex2jax: {inlineMath: [['$', '$'],["\\(","\\)"]]}, displayMath: [['$$','$$'], ['\\[','\\]']], 
@@ -26,18 +24,37 @@ window.MathJax = {
     Macros: {
       dd: ["{\\displaystyle \\frac{\\partial #1}{\\partial #2}}",2],
       bm: ["{\\boldsymbol{#1}}",1],
-      lbrc: "\\{",
-      rbrc: "\\}",
-      span: ["{\\rm span}\\{#1\\}",1]
+      lbrc: "\\left\\{",
+      rbrc: "\\right\\}",
+      span: ["{\\rm span}\\{#1\\}",1],
+      Rn: ["{\\bm{\\rm R}^{#1}}",1]
     }
   },
 };
+</script>
+<!-- <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 </head>
 <body>
 <div id="write">
 <h1 id="%E8%A7%A3%E7%A9%BA%E9%96%93%E3%81%AE%E6%AC%A1%E5%85%83%E3%81%A8%E5%9F%BA%E5%BA%95">解空間の次元と基底</h1>
-
+<div class="ex">
+<span class="ex-circle1">例</span>
+<p>
+<p>$\Rn{3}$ の部分空間</p>
+<p>$$
+W=\lbrc  \left[\begin{array}{rrr} x\cr y\cr z\end{array}\right] \middle|2x+3y-z=0  \rbrc
+$$
+の次元と基底を求めなさい。</p>
+</p>
+</div>
+<div class="prob">
+<span class="prob-label">練習</span>
+<p>
+</p>
+</div>
 </div>
 </body>
 </html>

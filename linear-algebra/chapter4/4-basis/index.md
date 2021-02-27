@@ -30,6 +30,20 @@ $\lbrc1,x,x^2,\ldots ,x^n\rbrc$ は $R[x]_n$ の基底である。
 <div class="ex">
 <span class="ex-circle1">例</span>
 <p>
+
+$
+\lbrc
+\left[\begin{array}{ccc} 1 \cr 1  \cr 0 \end{array}\right],
+\left[\begin{array}{ccc} 0 \cr 1  \cr 1 \end{array}\right],
+\left[\begin{array}{ccc} 1 \cr 0  \cr 1 \end{array}\right]
+\rbrc
+$ は $\bm{\rm R}^3$ の基底であることを示せ。
+</p>
+</div>
+
+<div class="prob">
+<span class="prob-label">練習</span>
+<p>
 $\lbrc 1+x,x+x^2,1+x^2 \rbrc$ は $R[x]_2$ の基底であることを示せ。
 </p>
 </div>
