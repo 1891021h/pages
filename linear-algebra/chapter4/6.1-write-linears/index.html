@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>index.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<script type="text/javascript">
+  if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+      document.write('<link rel="stylesheet" type="text/css" href="../../../sp.css">');
+  } else {
+      document.write('<link rel="stylesheet" type="text/css" href="../../../pc.css">');
+  }
+</script>
+<link rel="stylesheet" href="../../../miupon.css">
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ 
+      tex2jax: {inlineMath: [['$', '$'],["\\(","\\)"]]}, 
+      messageStyle: "none", "HTML-CSS": { scale: 95,mtextFontInherit: true}    
+    });
+</script>
+<script>
+window.MathJax = {
+  TeX: {
+    equationNumbers: {autoNumber: "AMS"},
+    Macros: {
+      dd: ["{\\displaystyle \\frac{\\partial #1}{\\partial #2}}",2],
+      bm: ["{\\boldsymbol{#1}}",1],
+      lbrc: "\\left\\{",
+      rbrc: "\\right\\}",
+      span: ["{\\rm span}\\{#1\\}",1],
+      Rn: ["{\\bm{\\rm R}^{#1}}",1],
+      spc3: ["{\\hspace{ 3pt }}"],
+    }
+  },
+};
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="write">
+<h1 id="%E3%81%9F%E3%81%8F%E3%81%95%E3%82%93%E3%81%AE%E4%B8%80%E6%AC%A1%E7%B5%90%E5%90%88%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9">たくさんの一次結合の書き方</h1>
+<p>ベクトル $\bm{u}_1,\bm{u}_2,\ldots,\bm{u}_n$ を，ベクトル $\bm{v}_1,\bm{v}_2,\ldots,\bm{v}_m$ の一次結合で表すことを考えます。まず愚直に書き並べてみると，</p>
+<div>
+$$
+\left\{
+\begin{array}{llll}
+    \bm{u}_1=p_{11}\bm{v}_1+p_{21}\bm{v}_2+\cdots +p_{m1}\bm{v}_m\cr
+    \bm{u}_2=p_{12}\bm{v}_1+p_{22}\bm{v}_2+\cdots +p_{m2}\bm{v}_m\cr
+    \quad\vdots\cr
+    \bm{u}_n=p_{1n}\bm{v}_1+p_{2n}\bm{v}_2+\cdots +p_{mn}\bm{v}_m\cr
+\end{array}
+\right.
+$$
+</div>
+<p>となります。これを，</p>
+<div>
+$$
+\left\{
+\begin{array}{cccc}
+\bm{u}_1=
+\begin{bmatrix}\bm{v}_1&\bm{v_2}&\cdots&\bm{v}_m\end{bmatrix}
+\left[
+    \begin{array}{cccc}
+        p_{11} \cr p_{21} \cr \vdots \cr p_{m1}
+    \end{array}
+\right]\cr
+\bm{u}_2=
+\begin{bmatrix}\bm{v}_1&\bm{v_2}&\cdots&\bm{v}_m\end{bmatrix}
+\left[
+    \begin{array}{cccc}
+        p_{12} \cr p_{22} \cr \vdots \cr p_{m2}
+    \end{array}
+\right]\cr
+\vdots\cr
+\bm{u}_n=
+\begin{bmatrix}\bm{v}_1&\bm{v_2}&\cdots&\bm{v}_m\end{bmatrix}
+\left[
+    \begin{array}{cccc}
+        p_{1n} \cr p_{2n} \cr \vdots \cr p_{mn}
+    \end{array}
+\right]
+\end{array}
+\right.
+$$
+</div>
+と書きなおしましょう。
+<p>最後に，これを縦ではなく横に $\begin{bmatrix}\bm{u}_1&amp;\bm{u}_2&amp;\cdots&amp;\bm{u}_n\end{bmatrix}$ と並べましょう。このようにすると，行列を使って，</p>
+<div>
+$$
+\begin{bmatrix}\bm{u}_1&\bm{u}_2&\cdots&\bm{u}_n\end{bmatrix}=
+\begin{bmatrix}\bm{v}_1&\bm{v}_2&\cdots&\bm{v}_m\end{bmatrix}
+    \begin{bmatrix}
+        p_{11}&p_{12}&\cdots&p_{1n} \\
+        p_{21}&p_{22}&\cdots&p_{2n} \\ 
+        \vdots \\
+        p_{n1}&p_{n2}&\cdots&p_{mn}
+    \end{bmatrix}
+$$
+</div>
+と書き表すことができます。
+</div>
+</body>
+</html>

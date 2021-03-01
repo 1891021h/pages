@@ -11,11 +11,9 @@
   }
 </script>
 <link rel="stylesheet" href="../../../miupon.css">
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script> -->
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ 
-      tex2jax: {inlineMath: [['$', '$'],["\\(","\\)"]]}, displayMath: [['$$','$$'], ['\\[','\\]']], 
+      tex2jax: {inlineMath: [['$', '$'],["\\(","\\)"]]}, 
       messageStyle: "none", "HTML-CSS": { scale: 95,mtextFontInherit: true}    
     });
 </script>
@@ -26,9 +24,17 @@ window.MathJax = {
     Macros: {
       dd: ["{\\displaystyle \\frac{\\partial #1}{\\partial #2}}",2],
       bm: ["{\\boldsymbol{#1}}",1],
+      lbrc: "\\left\\{",
+      rbrc: "\\right\\}",
+      span: ["{\\rm span}\\{#1\\}",1],
+      Rn: ["{\\bm{\\rm R}^{#1}}",1],
+      ip: ["{\\left\\langle {#1},{#2} \\right\\rangle}",2]
     }
   },
 };
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 </head>
 <body>
@@ -89,11 +95,6 @@ $$
 $$
 といった具合です。
 </p>
-<div class="theorem">
-<span class="theorem-title">定理4.4</span>
-<p>
-</p>
-</div>
 <p>ここで，頻出の重要な例題をやってみます。</p>
 <div class="ex">
 <span class="ex-circle1">例</span>

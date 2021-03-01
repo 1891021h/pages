@@ -11,11 +11,9 @@
   }
 </script>
 <link rel="stylesheet" href="../../../miupon.css">
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script> -->
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ 
-      tex2jax: {inlineMath: [['$', '$'],["\\(","\\)"]]}, displayMath: [['$$','$$'], ['\\[','\\]']], 
+      tex2jax: {inlineMath: [['$', '$'],["\\(","\\)"]]}, 
       messageStyle: "none", "HTML-CSS": { scale: 95,mtextFontInherit: true}    
     });
 </script>
@@ -26,11 +24,17 @@ window.MathJax = {
     Macros: {
       dd: ["{\\displaystyle \\frac{\\partial #1}{\\partial #2}}",2],
       bm: ["{\\boldsymbol{#1}}",1],
-      cbl: "\\{",
-      cbr: "\\}"
+      lbrc: "\\left\\{",
+      rbrc: "\\right\\}",
+      span: ["{\\rm span}\\{#1\\}",1],
+      Rn: ["{\\bm{\\rm R}^{#1}}",1],
+      ip: ["{\\left\\langle {#1},{#2} \\right\\rangle}",2]
     }
   },
 };
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 </head>
 <body>
@@ -92,10 +96,6 @@ $\bm{\rm R}^3
 <p>$(1)$　$R[x]_2$ の和とスカラー倍の定義を記せ。</p>
 <p>$(2)$　$(1)$ の定義によって，$R[x]_2$ がベクトル空間となっていることを確かめよ。</p>
 </p>
-</div>
-<div class="theorem">
-<span class="theorem-title">定理4.1</span>
-<p>ここに定理が入ります。いけてる</p>
 </div>
 </div>
 </body>

@@ -16,8 +16,10 @@ $(2)$　$\bm{x}\in W,r\in \bm{\rm K}$ に対して，$r\bm{x}\in W$
 </p>
 
 <div class="theorem">
-<span class="theorem-title">定理4.1</span>
+<span class="theorem-number">定理4.1</span>
 <p>
+<span class="thorem-title">()</span>
+
 ベクトル空間 $V$ の部分空間 $W$ と，$V$ の零ベクトル $\bm{0}$ に対して，
 $$\bm{0}\in W$$
 が成り立つ。

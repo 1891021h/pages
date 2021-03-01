@@ -11,12 +11,14 @@
 
 これが定義ですが，直接的には次の定理を使って問題を解くことになります。
 <div class="theorem">
-<span class="theorem-title">定理3.1</span>
+<span class="theorem-number">定理4.3.1</span>
 <p>
-$\left\{\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\right\}$ の１次独立な最大個数が $r$ である
-<p>
-$\iff$　$\left\{\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\right\}$ の中に $r$ 個の１次独立なベクトルがあり，他の $m-r$ 個のベクトルはこの $r$ 個のベクトルの１次結合で書ける。
-</p>
+<span class="theorem-title">(一次従属の言い換え)</span>
+
+$\lbrc\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\rbrc$ の１次独立なベクトルの最大個数が $r$ である
+
+$\iff$　$\lbrc\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\rbrc$ の中に $r$ 個の１次独立なベクトルがあり，他の $m-r$ 個のベクトルはこの $r$ 個のベクトルの１次結合で書ける。
+
 </p>
 </div>
 
@@ -45,9 +47,11 @@ $$
 定理として述べておきましょう。
 
 <div class="theorem">
-<span class="theorem-title">定理3.2</span>
+<span class="theorem-number">定理4.3.2</span>
 <p>
-$\left\{\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\right\}$ から最大個数の１次独立なベクトルを抜き出すには，<br>
+<span class="theorem-title">(一次独立なベクトルの抽出)</span>
+
+$\lbrc\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\rbrc$ から最大個数の１次独立なベクトルを抜き出すには，<br>
 
 ①　各ベクトルを列ベクトルとする行列 $A$ を階段行列に変形する。
 

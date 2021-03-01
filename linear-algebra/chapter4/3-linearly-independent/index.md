@@ -63,13 +63,6 @@ $$
 といった具合です。
 </p>
 
-<div class="theorem">
-<span class="theorem-title">定理4.4</span>
-<p>
-
-</p>
-</div>
-
 ここで，頻出の重要な例題をやってみます。
 <div class="ex">
 <span class="ex-circle1">例</span>

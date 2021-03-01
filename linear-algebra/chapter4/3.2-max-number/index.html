@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="../../../miupon.css">
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ 
-      tex2jax: {inlineMath: [['$', '$'],["\\(","\\)"]]}, displayMath: [['$$','$$'], ['\\[','\\]']], 
+      tex2jax: {inlineMath: [['$', '$'],["\\(","\\)"]]}, 
       messageStyle: "none", "HTML-CSS": { scale: 95,mtextFontInherit: true}    
     });
 </script>
@@ -28,15 +28,17 @@ window.MathJax = {
       rbrc: "\\right\\}",
       span: ["{\\rm span}\\{#1\\}",1],
       Rn: ["{\\bm{\\rm R}^{#1}}",1],
-      spc3: ["{\\hspace{ 3pt }}"],
+      ip: ["{\\left\\langle {#1},{#2} \\right\\rangle}",2]
     }
   },
 };
 </script>
-<!-- <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400&display=swap" rel="stylesheet"> -->
 </head>
 <body>
 <div id="write">
@@ -51,12 +53,11 @@ window.MathJax = {
 </div>
 <p>これが定義ですが，直接的には次の定理を使って問題を解くことになります。</p>
 <div class="theorem">
-<span class="theorem-title">定理3.1</span>
+<span class="theorem-number">定理4.3.1</span>
 <p>
-$\left\{\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\right\}$ の１次独立な最大個数が $r$ である
-<p>
-$\iff$　$\left\{\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\right\}$ の中に $r$ 個の１次独立なベクトルがあり，他の $m-r$ 個のベクトルはこの $r$ 個のベクトルの１次結合で書ける。
-</p>
+<span class="theorem-title">(一次従属の言い換え)</span>
+<p>$\lbrc\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\rbrc$ の１次独立なベクトルの最大個数が $r$ である</p>
+<p>$\iff$　$\lbrc\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\rbrc$ の中に $r$ 個の１次独立なベクトルがあり，他の $m-r$ 個のベクトルはこの $r$ 個のベクトルの１次結合で書ける。</p>
 </p>
 </div>
 <div class="ex">
@@ -80,9 +81,10 @@ $$</p>
 <p>自分の選んだ抜き出し方が最大個数となる抜き出し方になっているか，釈然としない人もいるかもしれません。しかし，定理3.1により，残りのベクトルが抜き出したベクトルの１次結合で表されることを確かめれば，最大個数であることが保証されます。
 定理として述べておきましょう。</p>
 <div class="theorem">
-<span class="theorem-title">定理3.2</span>
+<span class="theorem-number">定理4.3.2</span>
 <p>
-$\left\{\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\right\}$ から最大個数の１次独立なベクトルを抜き出すには，<br>
+<span class="theorem-title">(一次独立なベクトルの抽出)</span>
+<p>$\lbrc\bm{v}_1,\bm{v}_2, \ldots ,\bm{v}_k\rbrc$ から最大個数の１次独立なベクトルを抜き出すには，<br></p>
 <p>①　各ベクトルを列ベクトルとする行列 $A$ を階段行列に変形する。</p>
 <p>②　その階段行列において主成分を持つ列の列ベクトルを抜き出す。</p>
 </p>
