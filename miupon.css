@@ -576,6 +576,10 @@ a[href^="https://docs.google.com/document/"]:before {
   color: #4caf50;
   font-weight: 500;
 }
+.prob p{
+  overflow-x: auto;
+  overflow-y: hidden;
+}
 
 /* 例 */
 .eg-label {
