@@ -8,6 +8,8 @@
       document.write('<link rel="stylesheet" type="text/css" href="../../../sp.css">');
   } else {
       document.write('<link rel="stylesheet" type="text/css" href="../../../pc.css">');
+      document.write('<link rel="preconnect" href="https://fonts.gstatic.com">');
+      document.write('<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">');
   }
 </script>
 <link rel="stylesheet" href="../../../miupon.css">
@@ -28,7 +30,8 @@ window.MathJax = {
       rbrc: "\\right\\}",
       span: ["{\\rm span}\\{#1\\}",1],
       Rn: ["{\\bm{\\rm R}^{#1}}",1],
-      ip: ["{\\left\\langle {#1},{#2} \\right\\rangle}",2]
+      ip: ["{\\left\\langle {#1},{#2} \\right\\rangle}",2],
+      norm: ["{\\|{#1}\\|}",1]
     }
   },
 };
@@ -54,16 +57,10 @@ $(2)$　$\bm{x}\in W,r\in \bm{\rm K}$ に対して，$r\bm{x}\in W$</p>
 <div class="theorem">
 <span class="theorem-number">定理4.1</span>
 <p>
-<span class="thorem-title">()</span>
+<span class="thorem-title">($\bm{0}$ と部分空間)</span>
 <p>ベクトル空間 $V$ の部分空間 $W$ と，$V$ の零ベクトル $\bm{0}$ に対して，
 $$\bm{0}\in W$$
 が成り立つ。</p>
-</p>
-</div>
-<div class="eg-label">例１</div>
-<div class="eg-text">
-<p>
-例
 </p>
 </div>
 <div class="ex">
@@ -95,7 +92,7 @@ W_2
 </p>
 </div>
 <div class="prob">
-<span class="prob-label">れんしゅう</span>
+<span class="prob-label">練習</span>
 <p>
 次の $R[x]_3$ の部分集合 $W_1,W_2$ は $R[x]_3$ の部分空間であるか，それぞれ調べよ。 
 </p>

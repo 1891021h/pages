@@ -18,18 +18,11 @@ $(2)$　$\bm{x}\in W,r\in \bm{\rm K}$ に対して，$r\bm{x}\in W$
 <div class="theorem">
 <span class="theorem-number">定理4.1</span>
 <p>
-<span class="thorem-title">()</span>
+<span class="thorem-title">($\bm{0}$ と部分空間)</span>
 
 ベクトル空間 $V$ の部分空間 $W$ と，$V$ の零ベクトル $\bm{0}$ に対して，
 $$\bm{0}\in W$$
 が成り立つ。
-</p>
-</div>
-
-<div class="eg-label">例１</div>
-<div class="eg-text">
-<p>
-例
 </p>
 </div>
 
@@ -63,7 +56,7 @@ W_2
 </div>
 
 <div class="prob">
-<span class="prob-label">れんしゅう</span>
+<span class="prob-label">練習</span>
 <p>
 次の $R[x]_3$ の部分集合 $W_1,W_2$ は $R[x]_3$ の部分空間であるか，それぞれ調べよ。 
 </p>
