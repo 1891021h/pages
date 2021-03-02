@@ -8,6 +8,8 @@
       document.write('<link rel="stylesheet" type="text/css" href="../../../sp.css">');
   } else {
       document.write('<link rel="stylesheet" type="text/css" href="../../../pc.css">');
+      document.write('<link rel="preconnect" href="https://fonts.gstatic.com">');
+      document.write('<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">');
   }
 </script>
 <link rel="stylesheet" href="../../../miupon.css">
@@ -28,7 +30,8 @@ window.MathJax = {
       rbrc: "\\right\\}",
       span: ["{\\rm span}\\{#1\\}",1],
       Rn: ["{\\bm{\\rm R}^{#1}}",1],
-      ip: ["{\\left\\langle {#1},{#2} \\right\\rangle}",2]
+      ip: ["{\\left\\langle {#1},{#2} \\right\\rangle}",2],
+      norm: ["{\\|{#1}\\|}",1]
     }
   },
 };
@@ -36,9 +39,6 @@ window.MathJax = {
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
-<!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400&display=swap" rel="stylesheet"> -->
 </head>
 <body>
 <div id="write">
@@ -59,9 +59,9 @@ $\bm{\rm R}$ 上のベクトル空間 $V$ のベクトル $\bm{x},\bm{y}$ に対
 $\bm{\rm R}^n$ のベクトル $\bm{x}=\begin{bmatrix}x_1\\ x_2\\ \vdots\\ x_n \end{bmatrix}$ と $\bm{y}=\begin{bmatrix}y_1\\ y_2\\ \vdots\\ y_n \end{bmatrix}$ に対して，
 <p>$$
 \begin{eqnarray}
-\ip{x}{y}&amp;=&amp;x_1y_1+x_2y_2+\cdots+x_ny_n\
-&amp;=&amp;\sum_{k=1}^{n}{x_ky_k}\
-&amp;=&amp;\bm{x}^\mathsf{T}\bm{y}
+\ip{x}{y}&amp;=&amp;x_1y_1+x_2y_2+\cdots+x_ny_n\notag\cr
+&amp;=&amp;\sum_{k=1}^{n}{x_ky_k}\notag\cr
+&amp;=&amp;\bm{x}^\mathsf{T}\bm{y}\notag
 \end{eqnarray}
 $$</p>
 </div>

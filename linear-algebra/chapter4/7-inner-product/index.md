@@ -20,9 +20,9 @@ $\bm{\rm R}^n$ のベクトル $\bm{x}=\begin{bmatrix}x_1\\ x_2\\ \vdots\\ x_n \
 
 $$
 \begin{eqnarray}
-    \ip{x}{y}&=&x_1y_1+x_2y_2+\cdots+x_ny_n\\
-    &=&\sum_{k=1}^{n}{x_ky_k}\\
-    &=&\bm{x}^\mathsf{T}\bm{y}
+    \ip{x}{y}&=&x_1y_1+x_2y_2+\cdots+x_ny_n\notag\cr
+    &=&\sum_{k=1}^{n}{x_ky_k}\notag\cr
+    &=&\bm{x}^\mathsf{T}\bm{y}\notag
 \end{eqnarray}
 $$
 </div>
