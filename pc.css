@@ -4,3 +4,6 @@ html {
 body{
     font-family: 'Noto Sans JP', sans-serif;
 }
+.prob-label,.ex-circle1,.ex-circle1::after{
+    font-weight: 500;
+}

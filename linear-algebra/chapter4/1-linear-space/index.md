@@ -4,12 +4,29 @@
 
 <div class="def">
 <p>
-空でない集合 $V$ に，和 $\bm{x}+\bm{y}$ およびスカラー倍 $c\bm{x}$ という演算が定義されていて，次の①～⑧が成り立つとき，$V$ はベクトル空間であるという。<br>
-①　和に関する交換法則：$\bm{x}+\bm{y}=\bm{y}+\bm{x}$ <br>②　和に関する結合法則：$(\bm{x}+\bm{y})+\bm{z}=\bm{x}+(\bm{y}+\bm{z})$<br>③　零ベクトル：$\bm{x}+\bm{0}=\bm{0}+\bm{x}=\bm{0}$<br>④　逆ベクトル：$\bm{x}+\bm{x'}=\bm{x'}+\bm{x}$<br>⑤　スカラー倍に関する結合法則：$(ab)\bm{x}=a(b\bm{x})$<br>⑥　単位元：$1\bm{x}=\bm{x}$<br>⑦　スカラーに関する分配法則：$(a+b)\bm{x}=a\bm{x}+b\bm{x}$<br>⑧　ベクトルに関する分配法則：$a(\bm{x}+\bm{y})=a\bm{x}+a\bm{y}$
+集合 $V$ は空集合ではないとする。任意の $\bm{x},\bm{y}\in V$ と任意の $c \in K$ に対して，
+和 $\bm{x}+\bm{y}$ およびスカラー倍 $c\bm{x}$ という演算が定義されていて，次の①～⑧が成り立つとき，$V$ はベクトル空間であるという。
+<div style="padding-left:1rem;">
+①　和に関する交換法則<br>　　$\bm{x}+\bm{y}=\bm{y}+\bm{x}$<br>
+
+②　和に関する結合法則<br>　　$(\bm{x}+\bm{y})+\bm{z}=\bm{x}+(\bm{y}+\bm{z})$
+
+③　零ベクトル<br>　　$\bm{x}+\bm{0}=\bm{0}+\bm{x}=\bm{0}$
+
+④　逆ベクトル<br>　　$\bm{x}+\bm{x'}=\bm{x'}+\bm{x}$
+
+⑤　スカラー倍に関する結合法則<br>　　$(ab)\bm{x}=a(b\bm{x})$
+
+⑥　単位元<br>　　$1\bm{x}=\bm{x}$
+
+⑦　スカラーに関する分配法則<br>　　$(a+b)\bm{x}=a\bm{x}+b\bm{x}$
+
+⑧　ベクトルに関する分配法則<br>　　$a(\bm{x}+\bm{y})=a\bm{x}+a\bm{y}$
+</div>
 </p>
 </div>
 
-<div class="eg-label">例１</div>
+<div class="eg-label">例 4.1.1</div>
 <div class="eg-text">
 <p>
 $n$ 次の列ベクトルの集合
@@ -54,6 +71,27 @@ $(1)$　和とスカラー倍の定義を記せ。
 $(2)$　$(1)$ の定義によって，$\bm{\rm R}^3$ がベクトル空間となっていることを確めよ（性質①～⑧を満たすことを示せ）。 
 </p>
 </div>
+
+解答
+
+$(1)$
+
+自然な和とスカラー倍の定義は，任意の
+$\bm{x}=\begin{bmatrix}x_1 \cr x_2\cr x_3\end{bmatrix}, \bm{y}=\begin{bmatrix}y_1\cr y_2\cr y_3\end{bmatrix},\bm{z}=\begin{bmatrix}z_1\cr z_2\cr z_3\end{bmatrix}\in \bm{\rm R}^3$ と任意の $a,b\in K$ に対して，
+
+$$
+\begin{array}{ll}
+\bm{x}+\bm{y} = \begin{bmatrix}x_1 \cr x_2\cr x_3\end{bmatrix}+\begin{bmatrix}y_1\cr y_2\cr y_3\end{bmatrix} 
+\stackrel{\mathrm{def}}{=}
+\begin{bmatrix}x_1+y_1 \cr x_2+y_2\cr x_3+y_3\end{bmatrix}\cr
+c\bm{x}=c\begin{bmatrix}x_1 \cr x_2\cr x_3\end{bmatrix}
+\stackrel{\mathrm{def}}{=}
+\begin{bmatrix}cx_1 \cr cx_2\cr cx_3\end{bmatrix}
+\end{array}
+$$
+
+$(2)$
+いけてへん
 
 <div class="prob">
 <span class="prob-label">れんしゅう</span>

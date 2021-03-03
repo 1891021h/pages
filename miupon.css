@@ -472,9 +472,9 @@ a[href^="https://docs.google.com/document/"]:before {
 }
 .def:before {left: 10px;}
 .def:after {right: 10px;}
-.def p {
-  margin: 0; 
-  padding: 0;
+.def p{
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 /* 定理 */
@@ -519,7 +519,6 @@ a[href^="https://docs.google.com/document/"]:before {
   line-height: 1.5;
   position: absolute;
   margin-top: -2.3em;
-  font-weight: 500;
   color: #fff;
   background-color: #4caf50;
   border-radius: 50%;
@@ -531,7 +530,6 @@ a[href^="https://docs.google.com/document/"]:before {
 .ex-circle1:after{
   content: "題";
   position: absolute;
-  font-weight: 500;
   color: #fff;
   background-color:#4caf50;
   border-radius: 50%;
@@ -567,14 +565,13 @@ a[href^="https://docs.google.com/document/"]:before {
 .prob .prob-label {
   position: absolute;
   display: inline-block;
-  top: -13px;
-  left: 10px;
+  top: -0.7rem;
+  left: 0.625rem;
   padding: 0 9px;
   line-height: 1;
   font-size: 1.1rem;
   background-color: #fff;
   color: #4caf50;
-  font-weight: 500;
 }
 .prob p{
   overflow-x: auto;
@@ -591,12 +588,14 @@ a[href^="https://docs.google.com/document/"]:before {
   background: #dbebf8;/*背景色*/
   vertical-align: middle;
   border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/
+  font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
 }
 
 .eg-label:before {
   content: '●';
   color: white;
-  margin-right: 8px;
+  margin-right: 0.5rem;
 }
 
 .eg-text{
