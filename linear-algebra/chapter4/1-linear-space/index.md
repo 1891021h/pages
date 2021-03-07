@@ -82,6 +82,7 @@ $(1)$
 自然な和とスカラー倍の定義は，任意の
 $\bm{x}=\begin{bmatrix}x_1 \cr x_2\cr x_3\end{bmatrix}, \bm{y}=\begin{bmatrix}y_1\cr y_2\cr y_3\end{bmatrix},\bm{z}=\begin{bmatrix}z_1\cr z_2\cr z_3\end{bmatrix}\in \bm{\rm R}^3$ と任意の $a,b\in K$ に対して，
 
+
 $$
 \begin{array}{ll}
 \bm{x}+\bm{y} = \begin{bmatrix}x_1 \cr x_2\cr x_3\end{bmatrix}+\begin{bmatrix}y_1\cr y_2\cr y_3\end{bmatrix} 
@@ -92,6 +93,7 @@ c\bm{x}=c\begin{bmatrix}x_1 \cr x_2\cr x_3\end{bmatrix}
 \begin{bmatrix}cx_1 \cr cx_2\cr cx_3\end{bmatrix}
 \end{array}
 $$
+
 </p>
 
 $(2)$
