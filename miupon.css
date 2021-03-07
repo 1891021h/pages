@@ -457,6 +457,9 @@ a[href^="https://docs.google.com/document/"]:before {
 .MJXc-display{
   margin: 1em 0 !important;
 }
+.mjx-chtml.MathJax_CHTML{
+  font-size: 16px !important;
+}
 
 
 /*スマートフォン・PC切り替え*/
