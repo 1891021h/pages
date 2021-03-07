@@ -1,0 +1,66 @@
+%!TEX encoding = UTF-8
+% ビルドレシピは「upLaTeX」を選択する
+\documentclass[uplatex]{jsreport}
+\renewcommand{\prechaptername}{第}
+\renewcommand{\postchaptername}{章}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage[top=30truemm,bottom=30truemm,left=25truemm,right=25truemm]{geometry}
+
+\begin{document}
+  \chapter{数列の極限}
+    \section*{練習問題1}
+    $$c_n=\frac{1}{\sqrt{n}}$$
+    で与えられる数列$\{ c_n \}$が0に収束することを示せ。\\
+    また，3つの数列$\{ a_n\},\{b_n\},\{c_n\}$が0に収束する速さを比較しなさい。
+    ただし
+    $$
+    a_n = \frac{1}{n}
+    $$
+    $$
+    b_n = \frac{1}{n^2}
+    $$
+    とする。。
+  \chapter{関数の極限}
+    \section{練習問題2}
+    $ f(x)=\sqrt{x} $のとき，$ \displaystyle \lim_{x \to 1}{f(x)}=1$であることを示せ。
+    \section{練習問題3}
+    関数$ f(x)=x^2-2x $が$ \mathbb{R} $上の任意の点$a$で連続であることを示せ。
+  \chapter{集合の上限と下限}
+    \section{練習問題1’}
+    集合$ S= \displaystyle \left\{ \frac{n}{n+1} \mid n=1,2,3,\cdots \right\}$ の上限と下限を求めよ（定義をみたすことを示せ）。
+    \section{練習問題2’}
+    集合
+    $$ S_1=\left\{x \mid x>0 \right\} $$
+    $$ S_2=\left\{x \mid x \leq 1 \right\} $$
+    $$ S_3=\left\{x \mid 0<x \leq 1 \right\} $$
+    について，$S_1$が下に有界，$S_2$が上に有界，$S_3$が有界であることを定義にしたがって確かめよ。
+    \section{練習問題3’}
+    実数$ \mathbb{R} $上の集合$S$は下に有界であるとする。$S$の最大下界が存在すれば，$S$の下限が存在し，$S$の最大下界と下限は一致することを示せ。
+  \chapter{技術的な話}
+    \section{練習問題5}
+    $ \displaystyle \lim_{n \to \infty}{a_n} = \alpha $のとき，
+    $ \displaystyle \lim_{n \to \infty}{ca_n} = c \alpha $
+    が成り立つことを示せ。
+    \section{練習問題6}
+    $ \displaystyle \lim_{n \to \infty}{a_n} = \alpha \neq 0$のとき，$ a_n=0 $のとなる$ a_n $は有限個(0個の場合も含む)であることを示しなさい。
+    \section{練習問題7}
+    $ \displaystyle \lim_{n \to \infty}{a_n} = \alpha \neq 0$のとき，次が成り立つことを示しなさい。\\
+    \\
+    (1)　$\exists N_1 \in \mathbb{N} \, $ s.t.$\forall n \geq N_1$, \, $ \displaystyle \frac{1}{|a_n|}<\frac{2}{|\alpha|}$ \\
+    (2)　$\displaystyle \lim_{n \to \infty}{\frac{1}{a_n}}=\frac{1}{\alpha}$
+    \section{練習問題8}
+    以下の(1)と(2)が成り立つことを示せ。
+    \\
+    (1)　$ \displaystyle \lim_{x \to a}{f(x)} = \alpha$のとき，ある正の数$M$が存在して次が成り立つ；ある正の数$\rho$が存在して，$0<|x-a|<\rho$をみたすすべての$x$に対して，$f(x)<M$である。\\
+    (2)　$ \displaystyle \lim_{x \to a}{f(x)} = \alpha \, , \displaystyle \lim_{x \to a}{g(x)} = \beta$ならば，$ \displaystyle \lim_{x \to a}{f(x)g(x)} = \alpha \beta $
+    \section{練習問題9}
+    次の条件(A'),(B')を満たす数列の例をそれぞれ考えよ。\\
+    (A')　ある自然数$n$に対して，ある正の数$M$が存在して，$|a_n| \leq M$が成り立つ。\\
+    (B')　ある正の数$M$が存在して，$|a_n|>M$が成り立つ。
+    \section{練習問題10}
+    次の主張を満たす関数$f(x)$の例を挙げよ。また，もとの主張の否定形をつくり，それをみたす関数$f(x)$の例を挙げよ。\\
+    (i)　ある正の数$K$が存在して，任意の正の数$x$に対して，$f(x)\leq K$が成り立つ。\\
+    (ii)　任意の正の数$K$に対して，$x<1$を満たすある正の数$x=x(K)$が存在して，$f(x)>K$が成り立つ。
+\end{document}
