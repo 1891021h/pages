@@ -12,7 +12,6 @@ W=\lbrc  \left[\begin{array}{rrr} x\cr y\cr z\end{array}\right]
 2x+3y-z=0  \rbrc
 $$
 の次元と基底を求めなさい。
-
 </p>
 </div>
 

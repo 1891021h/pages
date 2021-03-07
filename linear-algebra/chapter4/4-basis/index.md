@@ -7,7 +7,6 @@
 
 $(1)$　$\bm{v}_1,\bm{v}_2,\ldots ,\bm{v}_k$ は１次独立である。<br>
 $(2)$　$\bm{v}_1,\bm{v}_2,\ldots ,\bm{v}_k$ は $V$ を生成する。すなわち $V=\langle \bm{v}_1,\bm{v}_2,\ldots ,\bm{v}_k \rangle$ 。
-
 </p>
 </div>
 
