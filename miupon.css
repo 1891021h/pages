@@ -458,7 +458,17 @@ a[href^="https://docs.google.com/document/"]:before {
   margin: 1em 0 !important;
 }
 .mjx-chtml.MathJax_CHTML{
-  font-size: 18px !important;
+  font-size: 20px !important;
+}
+@media(min-width:520px){
+  .mjx-chtml.MathJax_CHTML{
+    font-size: 18px !important;
+  }
+}
+@media(min-width:960px){
+  .mjx-chtml.MathJax_CHTML{
+    font-size: 16px !important;
+  } 
 }
 
 
