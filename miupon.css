@@ -3,6 +3,10 @@
   --control-text-color: #777;
 }
 
+html{
+  font-size:14px;
+}
+
 body {
   /*font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   /*font-family: 'Noto Serif JP', serif;*/
