@@ -7,6 +7,7 @@
 集合 $V$ は空集合ではないとする。任意の $\bm{x},\bm{y}\in V$ と任意の $c \in K$ に対して，
 和 $\bm{x}+\bm{y}$ およびスカラー倍 $c\bm{x}$ という演算が定義されていて，次の①～⑧が成り立つとき，$V$ はベクトル空間であるという。
 <div style="padding-left:1rem;">
+
 ①　和に関する交換法則<br>　　$\bm{x}+\bm{y}=\bm{y}+\bm{x}$
 
 ②　和に関する結合法則<br>　　$(\bm{x}+\bm{y})+\bm{z}=\bm{x}+(\bm{y}+\bm{z})$
@@ -96,22 +97,29 @@ $$
 $(2)$
 <p class="answer-text">
 ①
-$$\begin{eqnarray}(\bm{x}+\bm{y})+\bm{z}&=&\begin{bmatrix}x_1+y_1\cr x_2+y_2\cr x_3+y_3\end{bmatrix}+\begin{bmatrix}z_1\cr z_2\cr z_3\end{bmatrix}=\begin{bmatrix}(x_1+y_1)+z_1\cr (x_2+y_2)+z_2\cr (x_3+y_3)+z_3\end{bmatrix}=\begin{bmatrix}x_1\cr x_2\cr x_3\end{bmatrix}+\begin{bmatrix}y_1+z_1\cr y_2+z_2\cr y_3+z_3\end{bmatrix}
-\cr\cr &=&\bm{x}+(\bm{y}+\bm{z})\end{eqnarray}$$
+$\begin{eqnarray}(\bm{x}+\bm{y})+\bm{z}&=&\begin{bmatrix}x_1+y_1\cr x_2+y_2\cr x_3+y_3\end{bmatrix}+\begin{bmatrix}z_1\cr z_2\cr z_3\end{bmatrix}=\begin{bmatrix}(x_1+y_1)+z_1\cr (x_2+y_2)+z_2\cr (x_3+y_3)+z_3\end{bmatrix}=\begin{bmatrix}x_1\cr x_2\cr x_3\end{bmatrix}+\begin{bmatrix}y_1+z_1\cr y_2+z_2\cr y_3+z_3\end{bmatrix}
+\cr\cr &=&\bm{x}+(\bm{y}+\bm{z})\end{eqnarray}$
+
 ②
-$$\begin{eqnarray}\bm{x}+\bm{y}=\begin{bmatrix}x_1+y_1\cr x_2+y_2\cr x_3+y_3\end{bmatrix}=\begin{bmatrix}y_1+x_1\cr y_2+x_2\cr y_3+x_3\end{bmatrix}=\bm{y}+\bm{z}\end{eqnarray}$$
+$\begin{eqnarray}\bm{x}+\bm{y}=\begin{bmatrix}x_1+y_1\cr x_2+y_2\cr x_3+y_3\end{bmatrix}=\begin{bmatrix}y_1+x_1\cr y_2+x_2\cr y_3+x_3\end{bmatrix}=\bm{y}+\bm{z}\end{eqnarray}$
+
 ③
-$$\begin{eqnarray}\bm{x}+\bm{0}=\begin{bmatrix}x_1+y_1\cr x_2+y_2\cr x_3+y_3\end{bmatrix}+\begin{bmatrix}0\cr 0\cr 0\end{bmatrix}=\begin{bmatrix}x_1+0\cr x_2+0\cr x_3+0\end{bmatrix}=\begin{bmatrix}x_1\cr x_2\cr x_3\end{bmatrix}=\bm{x}\end{eqnarray}$$
+$\begin{eqnarray}\bm{x}+\bm{0}=\begin{bmatrix}x_1+y_1\cr x_2+y_2\cr x_3+y_3\end{bmatrix}+\begin{bmatrix}0\cr 0\cr 0\end{bmatrix}=\begin{bmatrix}x_1+0\cr x_2+0\cr x_3+0\end{bmatrix}=\begin{bmatrix}x_1\cr x_2\cr x_3\end{bmatrix}=\bm{x}\end{eqnarray}$
+
 ④
-$$\begin{eqnarray}\bm{x}+\bm{x}'=\begin{bmatrix}x_1+(-x_1)\cr x_2+(-x_2)\cr x_3+(-x_3)\end{bmatrix}=\begin{bmatrix}0\cr 0\cr 0\end{bmatrix}=\bm{0}\end{eqnarray}$$
+$\begin{eqnarray}\bm{x}+\bm{x}'=\begin{bmatrix}x_1+(-x_1)\cr x_2+(-x_2)\cr x_3+(-x_3)\end{bmatrix}=\begin{bmatrix}0\cr 0\cr 0\end{bmatrix}=\bm{0}\end{eqnarray}$
+
 ⑤
-$$\begin{eqnarray}(ab)\bm{x}=\begin{bmatrix}(ab)x_1\cr (ab)x_2\cr (ab)x_3\end{bmatrix}=\begin{bmatrix}a(bx_1)\cr a(bx_2)\cr a(bx_3)\end{bmatrix}=a\begin{bmatrix}(bx_1)\cr (bx_2)\cr (bx_3)\end{bmatrix} =a(b\bm{x})\end{eqnarray}$$
+$\begin{eqnarray}(ab)\bm{x}=\begin{bmatrix}(ab)x_1\cr (ab)x_2\cr (ab)x_3\end{bmatrix}=\begin{bmatrix}a(bx_1)\cr a(bx_2)\cr a(bx_3)\end{bmatrix}=a\begin{bmatrix}(bx_1)\cr (bx_2)\cr (bx_3)\end{bmatrix} =a(b\bm{x})\end{eqnarray}$
+
 ⑥
-$$\begin{eqnarray}1\bm{x}=\begin{bmatrix}1x_1\cr 1x_2\cr 1x_3\end{bmatrix}=\begin{bmatrix}x_1\cr x_2\cr x_3\end{bmatrix}=\bm{x}\end{eqnarray}$$
+$\begin{eqnarray}1\bm{x}=\begin{bmatrix}1x_1\cr 1x_2\cr 1x_3\end{bmatrix}=\begin{bmatrix}x_1\cr x_2\cr x_3\end{bmatrix}=\bm{x}\end{eqnarray}$
+
 ⑦
-$$\begin{eqnarray}a(\bm{x}+\bm{y})=a\begin{bmatrix}x_1+y_1\cr x_2+y_2\cr x_3+y_3\end{bmatrix}=\begin{bmatrix}a(x_1+y_1)\cr a(x_2+y_2)\cr a(x_3+y_3)\end{bmatrix}=a\bm{x}+a\bm{y}\end{eqnarray}$$
+$\begin{eqnarray}a(\bm{x}+\bm{y})=a\begin{bmatrix}x_1+y_1\cr x_2+y_2\cr x_3+y_3\end{bmatrix}=\begin{bmatrix}a(x_1+y_1)\cr a(x_2+y_2)\cr a(x_3+y_3)\end{bmatrix}=a\bm{x}+a\bm{y}\end{eqnarray}$
+
 ⑧
-$$\begin{eqnarray}(a+b)\bm{x}&=&\begin{bmatrix}(a+b)x_1\cr (a+b)x_2\cr (a+b)x_3\end{bmatrix}=\begin{bmatrix}ax_1+bx_1\cr ax_2+bx_2\cr ax_3+bx_3\end{bmatrix}=\begin{bmatrix}ax_1\cr ax_2\cr ax_3\end{bmatrix}+\begin{bmatrix}bx_1\cr bx_2\cr bx_3\end{bmatrix}\cr\cr &=&a\bm{x}+b\bm{x}\end{eqnarray}$$
+$\begin{eqnarray}(a+b)\bm{x}&=&\begin{bmatrix}(a+b)x_1\cr (a+b)x_2\cr (a+b)x_3\end{bmatrix}=\begin{bmatrix}ax_1+bx_1\cr ax_2+bx_2\cr ax_3+bx_3\end{bmatrix}=\begin{bmatrix}ax_1\cr ax_2\cr ax_3\end{bmatrix}+\begin{bmatrix}bx_1\cr bx_2\cr bx_3\end{bmatrix}\cr\cr &=&a\bm{x}+b\bm{x}\end{eqnarray}$
 </p>
 </div>
 

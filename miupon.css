@@ -8,10 +8,6 @@ html{
 }
 
 body {
-  -webkit-text-size-adjust: 100%;
-}
-
-body {
   /*font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   /*font-family: 'Noto Serif JP', serif;*/
   font-weight: 400;
