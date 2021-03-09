@@ -78,7 +78,7 @@ $(2)$　$(1)$ の定義によって，$\bm{\rm R}^3$ がベクトル空間とな
 
 $(1)$
 <div class="answer">
-<p class="answer-text">
+<div class="answer-text">
 自然な和とスカラー倍の定義は，任意の
 $\bm{x}=\begin{bmatrix}x_1 \cr x_2\cr x_3\end{bmatrix}, \bm{y}=\begin{bmatrix}y_1\cr y_2\cr y_3\end{bmatrix},\bm{z}=\begin{bmatrix}z_1\cr z_2\cr z_3\end{bmatrix}\in \bm{\rm R}^3$ と任意の $a,b\in K$ に対して，
 
@@ -94,10 +94,10 @@ c\bm{x}=c\begin{bmatrix}x_1 \cr x_2\cr x_3\end{bmatrix}
 \end{array}
 $$
 
-</p>
+</div>
 
 $(2)$
-<p class="answer-text">
+<div class="answer-text">
 
 ①和に関する交換法則
 $$\begin{eqnarray}\bm{x}+\bm{y}=\begin{bmatrix}x_1+y_1\cr x_2+y_2\cr x_3+y_3\end{bmatrix}=\begin{bmatrix}y_1+x_1\cr y_2+x_2\cr y_3+x_3\end{bmatrix}=\bm{y}+\bm{z}\end{eqnarray}$$
@@ -123,7 +123,7 @@ $$\begin{eqnarray}(a+b)\bm{x}&=&\begin{bmatrix}(a+b)x_1\cr (a+b)x_2\cr (a+b)x_3\
 
 ⑧ベクトルに関する分配法則
 $$\begin{eqnarray}a(\bm{x}+\bm{y})=a\begin{bmatrix}x_1+y_1\cr x_2+y_2\cr x_3+y_3\end{bmatrix}=\begin{bmatrix}a(x_1+y_1)\cr a(x_2+y_2)\cr a(x_3+y_3)\end{bmatrix}=a\bm{x}+a\bm{y}\end{eqnarray}$$
-</p>
+</div>
 </div>
 
 <div class="prob">
